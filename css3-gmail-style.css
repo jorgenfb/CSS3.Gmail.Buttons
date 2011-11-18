@@ -273,8 +273,14 @@ https://
 .icon.vol-mute:before {
 	background-position:0 -456px;
 }
-.icon.vol-high:before {
+.icon.vol-low:before {
 	background-position:0 -468px;
+}
+.icon.vol-mid:before {
+	background-position:0 -480px;
+}
+.icon.vol-high:before {
+	background-position:0 -492px;
 }
 /*==================================================*/
 /*  $Grouped                                        */
