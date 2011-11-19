@@ -10,4 +10,6 @@ Refer to the <code>index.html</code> for a complete list of examples and their r
 
 ##License
 
-The styles and code herein are released under http://unlicense.org/. Feel free to use how you like, where you like and when you like. All I ask is that you let me know so I can see what you do with them.
+The styles and code herein are released under http://unlicense.org/. 
+
+Feel free to use how you like, where you like and when you like. All I ask is that you let me know so I can see what you do with them.
