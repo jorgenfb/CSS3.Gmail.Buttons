@@ -2,12 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
-	<title>CSS3 Gmail UI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>CSS3 Gmail Buttons by Adam Whitcroft</title>
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="layout.css" type="text/css" />
 	<link rel="stylesheet" href="css3-gmail-style.css" type="text/css" />
+	<!-- Javascript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+	<script>
+	$(document).ready(function(){
+	$('.bttn').click(function(e){
+		e.preventDefault();
+	});	
+	});
+	</script>
 </head>
 
 <body class="wrapper">
@@ -30,7 +39,7 @@
 			<li>
 				<a href="" class="bttn">Click me</a>
 				<pre>&lt;a href="#" class="bttn"&gt;Click me&lt;a&gt;</pre>
-			</li>
+			</li>			
 			<li>
 				<a href="" class="bttn emphasis">Click me</a>
 				<pre>&lt;a href="#" class="bttn emphasis"&gt;Click me&lt;a&gt;</pre>
@@ -62,13 +71,21 @@
 				<pre>&lt;a href="#" class="bttn icon add"&gt;Add&lt;a&gt;</pre>
 			</li>
 			<li>
+				<a href="" class="bttn icon apple">Apple</a>
+				<pre>&lt;a href="#" class="bttn icon apple"&gt;Apple&lt;a&gt;</pre>
+			</li>			
+			<li>
 				<a href="" class="bttn icon approve">Approve</a>
 				<pre>&lt;a href="#" class="bttn icon approve"&gt;Approve&lt;a&gt;</pre>
 			</li>			
 			<li>
-				<a href="" class="bttn icon attachment">Attachment</a>
-				<pre>&lt;a href="#" class="bttn icon attachment"&gt;Attachment&lt;a&gt;</pre>
+				<a href="" class="bttn icon attachment-1">Attachment 1</a>
+				<pre>&lt;a href="#" class="bttn icon attachment-1"&gt;Attachment 1&lt;a&gt;</pre>
 			</li>
+			<li>
+				<a href="" class="bttn icon attachment-2">Attachment 2</a>
+				<pre>&lt;a href="#" class="bttn icon attachment-2"&gt;Attachment 2&lt;a&gt;</pre>
+			</li>			
 			<li>
 				<a href="" class="bttn icon bookmark">Bookmark</a>
 				<pre>&lt;a href="#" class="bttn icon bookmark"&gt;Bookmark&lt;a&gt;</pre>
@@ -81,6 +98,10 @@
 				<a href="" class="bttn icon cart">Cart</a>
 				<pre>&lt;a href="#" class="bttn icon cart"&gt;Cart&lt;a&gt;</pre>
 			</li>
+			<li>
+				<a href="" class="bttn icon clipboard">Clipboard</a>
+				<pre>&lt;a href="#" class="bttn icon clipboard"&gt;Clipboard&lt;a&gt;</pre>
+			</li>			
 			<li>
 				<a href="" class="bttn icon close">Close</a>
 				<pre>&lt;a href="#" class="bttn icon close"&gt;Close&lt;a&gt;</pre>
@@ -114,13 +135,21 @@
 				<pre>&lt;a href="#" class="bttn icon folder"&gt;Folder&lt;a&gt;</pre>
 			</li>
 			<li>
+				<a href="" class="bttn icon folder-plus">Folder Plus</a>
+				<pre>&lt;a href="#" class="bttn icon folder-plus"&gt;Folder Plus&lt;a&gt;</pre>
+			</li>	
+			<li>
+				<a href="" class="bttn icon folder-minus">Folder Minus</a>
+				<pre>&lt;a href="#" class="bttn icon folder-minus"&gt;Folder Minus&lt;a&gt;</pre>
+			</li>					
+			<li>
 				<a href="" class="bttn icon fork">Fork</a>
 				<pre>&lt;a href="#" class="bttn icon fork"&gt;Fork&lt;a&gt;</pre>
 			</li>
 			<li>
 				<a href="" class="bttn icon home">Home</a>
 				<pre>&lt;a href="#" class="bttn icon home"&gt;Home&lt;a&gt;</pre>
-			</li>
+			</li>			
 			<li>
 				<a href="" class="bttn icon like">Like</a>
 				<pre>&lt;a href="#" class="bttn icon like"&gt;Like&lt;a&gt;</pre>
@@ -129,6 +158,14 @@
 				<a href="" class="bttn icon link">Link</a>
 				<pre>&lt;a href="#" class="bttn icon link"&gt;Link&lt;a&gt;</pre>
 			</li>
+			<li>
+				<a href="" class="bttn icon list">List</a>
+				<pre>&lt;a href="#" class="bttn icon list"&gt;List&lt;a&gt;</pre>
+			</li>			
+			<li>
+				<a href="" class="bttn icon lock">Lock</a>
+				<pre>&lt;a href="#" class="bttn icon lock"&gt;Lock&lt;a&gt;</pre>
+			</li>			
 			<li>
 				<a href="" class="bttn icon mail">Mail</a>
 				<pre>&lt;a href="#" class="bttn icon mail"&gt;Mail&lt;a&gt;</pre>
@@ -150,9 +187,9 @@
 				<pre>&lt;a href="#" class="bttn icon new-window"&gt;New Window&lt;a&gt;</pre>
 			</li>	
 			<li>
-				<a href="" class="bttn icon power">Power</a>
-				<pre>&lt;a href="#" class="bttn icon power"&gt;Power&lt;a&gt;</pre>
-			</li>					
+				<a href="" class="bttn icon pin">Pin</a>
+				<pre>&lt;a href="#" class="bttn icon pin"&gt;Pin&lt;a&gt;</pre>
+			</li>								
 			<li>
 				<a href="" class="bttn icon print">Print</a>
 				<pre>&lt;a href="#" class="bttn icon print"&gt;Print&lt;a&gt;</pre>
@@ -174,6 +211,10 @@
 				<pre>&lt;a href="#" class="bttn icon rss"&gt;RSS&lt;a&gt;</pre>
 			</li>
 			<li>
+				<a href="" class="bttn icon save">Save</a>
+				<pre>&lt;a href="#" class="bttn icon save"&gt;Save&lt;a&gt;</pre>
+			</li>			
+			<li>
 				<a href="" class="bttn icon search">Search</a>
 				<pre>&lt;a href="#" class="bttn icon search"&gt;Search&lt;a&gt;</pre>
 			</li>
@@ -181,6 +222,10 @@
 				<a href="" class="bttn icon settings">Settings</a>
 				<pre>&lt;a href="#" class="bttn icon settings"&gt;Settings&lt;a&gt;</pre>
 			</li>
+			<li>
+				<a href="" class="bttn icon stats">Stats</a>
+				<pre>&lt;a href="#" class="bttn icon stats"&gt;Stats&lt;a&gt;</pre>
+			</li>			
 			<li>
 				<a href="" class="bttn icon sync">Sync</a>
 				<pre>&lt;a href="#" class="bttn icon sync"&gt;Sync&lt;a&gt;</pre>
@@ -192,7 +237,11 @@
 			<li>
 				<a href="" class="bttn icon tools">Tools</a>
 				<pre>&lt;a href="#" class="bttn icon tools"&gt;Tools&lt;a&gt;</pre>
-			</li>			
+			</li>
+			<li>
+				<a href="" class="bttn icon unlock">Unlock</a>
+				<pre>&lt;a href="#" class="bttn icon unlock"&gt;Unlock&lt;a&gt;</pre>
+			</li>						
 			<li>
 				<a href="" class="bttn icon upload">Upload</a>
 				<pre>&lt;a href="#" class="bttn icon upload"&gt;Upload&lt;a&gt;</pre>
@@ -258,7 +307,7 @@
 		<p>
 			The styles and code herein are released under <a href="http://unlicense.org/" title="Unlicense Software">unlicense</a>. All icons designed by <a href="http://adamwhitcroft.com" title="Adam Whitcroft">Adam Whitcroft</a>.
 		</p>
-		<a href="https://twitter.com/share" class="twitter-share-button" data-text="<?php the_title();?> -" data-count="horizontal" data-via="AdamWhitcroft">Tweet</a>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-text="CSS3 Gmail Buttons -" data-count="horizontal" data-via="AdamWhitcroft">Tweet</a>
 	</footer>
 	
 </body>
