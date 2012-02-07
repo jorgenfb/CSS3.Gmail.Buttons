@@ -157,6 +157,12 @@ https://github.com/AdamWhitcroft/CSS3.Gmail.Buttons
 .next:hover:after {
 	opacity:1;
 }
+/* Move icon to right side */
+.icon.right:before {
+	margin-left:6px;
+	margin-right:0px;
+	float:right;
+}
 /* Icons */
 .icon.add:before {
 	background-position:0 0;
