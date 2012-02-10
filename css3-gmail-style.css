@@ -5,740 +5,678 @@ https://github.com/AdamWhitcroft/CSS3.Gmail.Buttons
 /*==================================================*/
 /*  $Basic Button                                   */
 /*==================================================*/
+/* line 13, css3-gmail-style.scss */
 .bttn {
-	text-decoration:none;
-	cursor:pointer;
-	font-size:0.75em;
-	padding:0 8px;
-	font-weight:bold;
-	height:30px;
-	line-height:30px;
-	display:inline-block;
-	outline:0;
-	color:#444;
-	background-color:#f5f5f5;
-	background-image:-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
-	background-image:-moz-linear-gradient(top,#f5f5f5,#f1f1f1);
-	background-image:linear-gradient(top,#f5f5f5,#f1f1f1);
-	border:1px solid #d9d9d9;
-	border:1px solid rgba(0,0,0,0.1);
-	-webkit-border-radius:2px;
-	-moz-border-radius:2px;
-	border-radius:2px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.75em;
+  padding: 0 8px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  outline: 0;
+  color: #444;
+  background-color: #f5f5f5;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #f5f5f5), color-stop(100%, #f1f1f1));
+  background: -webkit-linear-gradient(top left, #f5f5f5, #f1f1f1);
+  background: -moz-linear-gradient(top left, #f5f5f5, #f1f1f1);
+  background: -o-linear-gradient(top left, #f5f5f5, #f1f1f1);
+  background: -ms-linear-gradient(top left, #f5f5f5, #f1f1f1);
+  background: linear-gradient(top left, #f5f5f5, #f1f1f1);
+  border: 1px solid #d9d9d9;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  /*==================================================*/
+  /*  $Emphasis                                       */
+  /*==================================================*/
+  /*==================================================*/
+  /*  $Colors                                         */
+  /*==================================================*/
+  /* .red */
+  /* .blue */
+  /* .yellow */
+  /*==================================================*/
+  /*  $Icons                                          */
+  /*==================================================*/
 }
+/* line 30, css3-gmail-style.scss */
 .bttn:hover {
-	border:1px solid #c6c6c6;
-	border:1px solid rgba(0,0,0,0.2);
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-	position:relative;
-	z-index:1;
+  border: 1px solid #c6c6c6;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
 }
+/* line 37, css3-gmail-style.scss */
 .bttn:active {
-	-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);
-	-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);
-	box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);
-}
-/*==================================================*/
-/*  $Emphasis                                       */
-/*==================================================*/
-.emphasis {
-	text-transform:uppercase;
-}
-/*==================================================*/
-/*  $Colors                                         */
-/*==================================================*/
-/* .red */
-.red {
-	color:#fff;
-	background-color:#d14836;
-	border:1px solid transparent;
-	background-image:-webkit-linear-gradient(top,#dd4b39,#d14836);
-	background-image:-moz-linear-gradient(top,#dd4b39,#d14836);
-	background-image:linear-gradient(top,#dd4b39,#d14836);
-}
-.red:hover {
-	background-color:#c53727;
-	border:1px solid #b0281a;
-	background-image:-webkit-linear-gradient(top,#dd4b39,#c53727);
-	background-image:-moz-linear-gradient(top,#dd4b39,#c53727);
-	background-image:linear-gradient(top,#dd4b39,#c53727);
-	-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.2);
-	-moz-box-shadow:0 1px 2px rgba(0,0,0,0.2);
-	box-shadow:0 1px 2px rgba(0,0,0,0.2);
-}
-.red:active {
-	-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);
-	-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);
-	box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);	
-}
-/* .blue */
-.blue {
-	color:#fff;
-	background-color:#4D90fe;
-	border:1px solid #3079ed;
-	background-image:-webkit-linear-gradient(top,#4d90fe,#4787ed);
-	background-image:-moz-linear-gradient(top,#4d90fe,#4787ed);
-	background-image:linear-gradient(top,#4d90fe,#4787ed);
-}
-.blue:hover {
-	background-color:#357aeb;
-	border:1px solid #2F5bb7;
-	background-image:-webkit-linear-gradient(top,#4d90fe,#357ae8);
-	background-image:-moz-linear-gradient(top,#4d90fe,#357ae8);
-	background-image:linear-gradient(top,#4d90fe,#357ae8);
-	-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.2);
-	-moz-box-shadow:0 1px 2px rgba(0,0,0,0.2);
-	box-shadow:0 1px 2px rgba(0,0,0,0.2);	
-}
-.blue:active {
-	-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);
-	-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);
-	box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);	
-}
-/* .yellow */
-.yellow {
-	color:#867343;
-	background-color:#ffe07b;
-	border:1px solid #fddb69;
-	background-image:-webkit-linear-gradient(top,#ffe896,#ffe07b);
-	background-image:-moz-linear-gradient(top,#ffe896,#ffe07b);
-	background-image:linear-gradient(top,#ffe896,#ffe07b);
-}
-.yellow:hover {
-	background-color:#ffda73;
-	border:1px solid #deb74f;
-	background-image:-webkit-linear-gradient(top,#ffe485,#ffda73);
-	background-image:-moz-linear-gradient(top,#ffe485,#ffda73);
-	background-image:linear-gradient(top,#ffe485,#ffda73);
-	-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.2);
-	-moz-box-shadow:0 1px 2px rgba(0,0,0,0.2);
-	box-shadow:0 1px 2px rgba(0,0,0,0.2);	
-}
-.yellow:active {
-	-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);
-	-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);
-	box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);	
-}
-/*==================================================*/
-/*  $Icons                                          */
-/*==================================================*/
-.icon:before,
-.prev:before {
-	content:"";
-	position:relative;
-	top:9px;
-	left:0;
-	margin-right:6px;
-	float:left;
-	width:12px;
-	height:12px;
-	background:url(icons.png) no-repeat 0 0;
-}
-.next:after {
-	content:"";
-	position:relative;
-	top:9px;
-	right:0;
-	margin-left:6px;
-	float:right;
-	width:12px;
-	height:12px;
-	background:url(icons.png) no-repeat 0 0;
-}
-.bttn.icon:before,
-.prev:before,
-.next:after {
-	opacity:0.8;
-}
-.bttn.icon:hover:before,
-.prev:hover:before,
-.next:hover:after {
-	opacity:1;
-}
-/* Move icon to right side */
-.icon.right:before {
-	margin-left:6px;
-	margin-right:0px;
-	float:right;
-}
-/* Icons */
-.icon.add:before {
-	background-position:0 0;
-}
-.icon.apple:before {
-	background-position:0 -12px;
-}
-.icon.approve:before {
-	background-position:0 -24px;
-}
-.icon.attachment-1:before {
-	background-position:0 -36px;
-}
-.icon.attachment-2:before {
-	background-position:0 -48px;
-}
-.icon.bookmark:before {
-	background-position:0 -60px;
-}
-.icon.calendar:before {
-	background-position:0 -72px;
-}
-.icon.cart:before {
-	background-position:0 -84px;
-}
-.icon.clipboard:before {
-	background-position:0 -96px;
-}
-.icon.close:before {
-	background-position:0 -108px;
-}
-.icon.comment:before {
-	background-position:0 -120px;
-}
-.icon.delete:before {
-	background-position:0 -132px;
-}
-.icon.download:before {
-	background-position:0 -144px;
-}
-.icon.dropdown:before {
-	background-position:0 -156px;
-}
-.icon.edit:before {
-	background-position:0 -168px;
-}
-.icon.favourite:before {
-	background-position:0 -180px;
-}
-.icon.folder:before {
-	background-position:0 -192px;
-}
-.icon.folder-plus:before {
-	background-position:0 -204px;
-}
-.icon.folder-minus:before {
-	background-position:0 -216px;
-}
-.icon.fork:before {
-	background-position:0 -228px;
-}
-.icon.home:before {
-	background-position:0 -240px;
-}
-.icon.like:before {
-	background-position:0 -252px;
-}
-.icon.link:before {
-	background-position:0 -264px;
-}
-.icon.list:before {
-	background-position:0 -276px;
-}
-.icon.lock:before {
-	background-position:0 -288px;
-}
-.icon.mail:before {
-	background-position:0 -300px;
-}
-.icon.maximise:before {
-	background-position:0 -312px;
-}
-.icon.minimise:before {
-	background-position:0 -324px;
-}
-.icon.move:before {
-	background-position:0 -336px;
-}
-.icon.new-window:before {
-	background-position:0 -348px;
-}
-.next:after {
-	background-position:0 -360px;
-}
-.icon.pin:before {
-	background-position:0 -372px;
-}
-.prev:before {
-	background-position:0 -384px;
-}
-.icon.print:before {
-	background-position:0 -396px;
-}
-.icon.profile:before {
-	background-position:0 -408px;
-}
-.icon.refresh:before {
-	background-position:0 -420px;
-}
-.icon.remove:before {
-	background-position:0 -432px;
-}
-.icon.rss:before {
-	background-position:0 -444px;
-}
-.icon.save:before {
-	background-position:0 -456px;
-}
-.icon.search:before {
-	background-position:0 -468px;
-}
-.icon.settings:before {
-	background-position:0 -480px;
-}
-.icon.stats:before {
-	background-position:0 -492px;
-}
-.icon.sync:before {
-	background-position:0 -504px;
-}
-.icon.tag:before {
-	background-position:0 -516px;
-}
-.icon.tools:before {
-	background-position:0 -528px;
-}
-.icon.unlock:before {
-	background-position:0 -540px;
-}
-.icon.upload:before {
-	background-position:0 -552px;
-}
-.icon.view:before {
-	background-position:0 -564px;
-}
-.icon.vol-mute:before {
-	background-position:0 -576px;
-}
-.icon.vol-low:before {
-	background-position:0 -588px;
-}
-.icon.vol-mid:before {
-	background-position:0 -600px;
-}
-.icon.vol-high:before {
-	background-position:0 -612px;
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+/* line 44, css3-gmail-style.scss */
+.bttn .emphasis {
+  text-transform: uppercase;
+}
+/* line 51, css3-gmail-style.scss */
+.bttn.red {
+  color: #fff;
+  background-color: #d14836;
+  border: 1px solid transparent;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #dd4b39), color-stop(100%, #d14836));
+  background: -webkit-linear-gradient(top left, #dd4b39, #d14836);
+  background: -moz-linear-gradient(top left, #dd4b39, #d14836);
+  background: -o-linear-gradient(top left, #dd4b39, #d14836);
+  background: -ms-linear-gradient(top left, #dd4b39, #d14836);
+  background: linear-gradient(top left, #dd4b39, #d14836);
+}
+/* line 57, css3-gmail-style.scss */
+.bttn.red:hover {
+  background-color: #c53727;
+  border: 1px solid #b0281a;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #dd4b39), color-stop(100%, #c53727));
+  background: -webkit-linear-gradient(top left, #dd4b39, #c53727);
+  background: -moz-linear-gradient(top left, #dd4b39, #c53727);
+  background: -o-linear-gradient(top left, #dd4b39, #c53727);
+  background: -ms-linear-gradient(top left, #dd4b39, #c53727);
+  background: linear-gradient(top left, #dd4b39, #c53727);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+/* line 63, css3-gmail-style.scss */
+.bttn.red:active {
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+/* line 68, css3-gmail-style.scss */
+.bttn.blue {
+  color: #fff;
+  background-color: #4D90fe;
+  border: 1px solid #3079ed;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #4d90fe), color-stop(100%, #4787ed));
+  background: -webkit-linear-gradient(top left, #4d90fe, #4787ed);
+  background: -moz-linear-gradient(top left, #4d90fe, #4787ed);
+  background: -o-linear-gradient(top left, #4d90fe, #4787ed);
+  background: -ms-linear-gradient(top left, #4d90fe, #4787ed);
+  background: linear-gradient(top left, #4d90fe, #4787ed);
+}
+/* line 73, css3-gmail-style.scss */
+.bttn.blue:hover {
+  background-color: #357aeb;
+  border: 1px solid #2F5bb7;
+  background-image: linear-gradient(top, #4d90fe, #357ae8);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+/* line 79, css3-gmail-style.scss */
+.bttn.blue:active {
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+/* line 84, css3-gmail-style.scss */
+.bttn.yellow {
+  color: #867343;
+  background-color: #ffe07b;
+  border: 1px solid #fddb69;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #ffe896), color-stop(100%, #ffe07b));
+  background: -webkit-linear-gradient(top left, #ffe896, #ffe07b);
+  background: -moz-linear-gradient(top left, #ffe896, #ffe07b);
+  background: -o-linear-gradient(top left, #ffe896, #ffe07b);
+  background: -ms-linear-gradient(top left, #ffe896, #ffe07b);
+  background: linear-gradient(top left, #ffe896, #ffe07b);
+}
+/* line 89, css3-gmail-style.scss */
+.bttn.yellow:hover {
+  background-color: #ffda73;
+  border: 1px solid #deb74f;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #ffe485), color-stop(100%, #ffda73));
+  background: -webkit-linear-gradient(top left, #ffe485, #ffda73);
+  background: -moz-linear-gradient(top left, #ffe485, #ffda73);
+  background: -o-linear-gradient(top left, #ffe485, #ffda73);
+  background: -ms-linear-gradient(top left, #ffe485, #ffda73);
+  background: linear-gradient(top left, #ffe485, #ffda73);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+/* line 95, css3-gmail-style.scss */
+.bttn.yellow:active {
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+/* line 103, css3-gmail-style.scss */
+.bttn.icon:before, .bttn.prev:before {
+  content: "";
+  position: relative;
+  top: 9px;
+  left: 0;
+  margin-right: 6px;
+  float: left;
+  width: 12px;
+  height: 12px;
+  background: url(../icons.png) no-repeat 0 0;
+}
+/* line 114, css3-gmail-style.scss */
+.bttn.next:after {
+  content: "";
+  position: relative;
+  top: 9px;
+  right: 0;
+  margin-left: 6px;
+  float: right;
+  width: 12px;
+  height: 12px;
+  background: url(../icons.png) no-repeat 0 0;
+}
+/* line 127, css3-gmail-style.scss */
+.bttn.icon:before, .bttn.prev:before, .bttn.next:after {
+  opacity: 0.8;
+}
+/* line 132, css3-gmail-style.scss */
+.bttn.icon:hover:before, .bttn.prev:hover:before, .bttn.next:hover:after {
+  opacity: 1;
+}
+/* line 136, css3-gmail-style.scss */
+.bttn.icon {
+  /* Move icon to right side */
+  /* Icons */
+}
+/* line 139, css3-gmail-style.scss */
+.bttn.icon.right:before {
+  margin-left: 6px;
+  margin-right: 0px;
+  float: right;
+}
+/* line 145, css3-gmail-style.scss */
+.bttn.icon.add:before {
+  background-position: 0 0;
+}
+/* line 148, css3-gmail-style.scss */
+.bttn.icon.apple:before {
+  background-position: 0 -12px;
+}
+/* line 151, css3-gmail-style.scss */
+.bttn.icon.approve:before {
+  background-position: 0 -24px;
+}
+/* line 154, css3-gmail-style.scss */
+.bttn.icon.attachment-1:before {
+  background-position: 0 -36px;
+}
+/* line 157, css3-gmail-style.scss */
+.bttn.icon.attachment-2:before {
+  background-position: 0 -48px;
+}
+/* line 160, css3-gmail-style.scss */
+.bttn.icon.bookmark:before {
+  background-position: 0 -60px;
+}
+/* line 163, css3-gmail-style.scss */
+.bttn.icon.calendar:before {
+  background-position: 0 -72px;
+}
+/* line 166, css3-gmail-style.scss */
+.bttn.icon.cart:before {
+  background-position: 0 -84px;
+}
+/* line 169, css3-gmail-style.scss */
+.bttn.icon.clipboard:before {
+  background-position: 0 -96px;
+}
+/* line 172, css3-gmail-style.scss */
+.bttn.icon.close:before {
+  background-position: 0 -108px;
+}
+/* line 175, css3-gmail-style.scss */
+.bttn.icon.comment:before {
+  background-position: 0 -120px;
+}
+/* line 178, css3-gmail-style.scss */
+.bttn.icon.delete:before {
+  background-position: 0 -132px;
+}
+/* line 181, css3-gmail-style.scss */
+.bttn.icon.download:before {
+  background-position: 0 -144px;
+}
+/* line 184, css3-gmail-style.scss */
+.bttn.icon.dropdown:before {
+  background-position: 0 -156px;
+}
+/* line 187, css3-gmail-style.scss */
+.bttn.icon.edit:before {
+  background-position: 0 -168px;
+}
+/* line 190, css3-gmail-style.scss */
+.bttn.icon.favourite:before {
+  background-position: 0 -180px;
+}
+/* line 193, css3-gmail-style.scss */
+.bttn.icon.folder:before {
+  background-position: 0 -192px;
+}
+/* line 196, css3-gmail-style.scss */
+.bttn.icon.folder-plus:before {
+  background-position: 0 -204px;
+}
+/* line 199, css3-gmail-style.scss */
+.bttn.icon.folder-minus:before {
+  background-position: 0 -216px;
+}
+/* line 202, css3-gmail-style.scss */
+.bttn.icon.fork:before {
+  background-position: 0 -228px;
+}
+/* line 205, css3-gmail-style.scss */
+.bttn.icon.home:before {
+  background-position: 0 -240px;
+}
+/* line 208, css3-gmail-style.scss */
+.bttn.icon.like:before {
+  background-position: 0 -252px;
+}
+/* line 211, css3-gmail-style.scss */
+.bttn.icon.link:before {
+  background-position: 0 -264px;
+}
+/* line 214, css3-gmail-style.scss */
+.bttn.icon.list:before {
+  background-position: 0 -276px;
+}
+/* line 217, css3-gmail-style.scss */
+.bttn.icon.lock:before {
+  background-position: 0 -288px;
+}
+/* line 220, css3-gmail-style.scss */
+.bttn.icon.mail:before {
+  background-position: 0 -300px;
+}
+/* line 223, css3-gmail-style.scss */
+.bttn.icon.maximise:before {
+  background-position: 0 -312px;
+}
+/* line 226, css3-gmail-style.scss */
+.bttn.icon.minimise:before {
+  background-position: 0 -324px;
+}
+/* line 229, css3-gmail-style.scss */
+.bttn.icon.move:before {
+  background-position: 0 -336px;
+}
+/* line 232, css3-gmail-style.scss */
+.bttn.icon.new-window:before {
+  background-position: 0 -348px;
+}
+/* line 235, css3-gmail-style.scss */
+.bttn.icon.pin:before {
+  background-position: 0 -372px;
+}
+/* line 238, css3-gmail-style.scss */
+.bttn.icon.print:before {
+  background-position: 0 -396px;
+}
+/* line 241, css3-gmail-style.scss */
+.bttn.icon.profile:before {
+  background-position: 0 -408px;
+}
+/* line 244, css3-gmail-style.scss */
+.bttn.icon.refresh:before {
+  background-position: 0 -420px;
+}
+/* line 247, css3-gmail-style.scss */
+.bttn.icon.remove:before {
+  background-position: 0 -432px;
+}
+/* line 250, css3-gmail-style.scss */
+.bttn.icon.rss:before {
+  background-position: 0 -444px;
+}
+/* line 253, css3-gmail-style.scss */
+.bttn.icon.save:before {
+  background-position: 0 -456px;
+}
+/* line 256, css3-gmail-style.scss */
+.bttn.icon.search:before {
+  background-position: 0 -468px;
+}
+/* line 259, css3-gmail-style.scss */
+.bttn.icon.settings:before {
+  background-position: 0 -480px;
+}
+/* line 262, css3-gmail-style.scss */
+.bttn.icon.stats:before {
+  background-position: 0 -492px;
+}
+/* line 265, css3-gmail-style.scss */
+.bttn.icon.sync:before {
+  background-position: 0 -504px;
+}
+/* line 268, css3-gmail-style.scss */
+.bttn.icon.tag:before {
+  background-position: 0 -516px;
+}
+/* line 271, css3-gmail-style.scss */
+.bttn.icon.tools:before {
+  background-position: 0 -528px;
+}
+/* line 274, css3-gmail-style.scss */
+.bttn.icon.unlock:before {
+  background-position: 0 -540px;
+}
+/* line 277, css3-gmail-style.scss */
+.bttn.icon.upload:before {
+  background-position: 0 -552px;
+}
+/* line 280, css3-gmail-style.scss */
+.bttn.icon.view:before {
+  background-position: 0 -564px;
+}
+/* line 283, css3-gmail-style.scss */
+.bttn.icon.vol-mute:before {
+  background-position: 0 -576px;
+}
+/* line 286, css3-gmail-style.scss */
+.bttn.icon.vol-low:before {
+  background-position: 0 -588px;
+}
+/* line 289, css3-gmail-style.scss */
+.bttn.icon.vol-mid:before {
+  background-position: 0 -600px;
+}
+/* line 292, css3-gmail-style.scss */
+.bttn.icon.vol-high:before {
+  background-position: 0 -612px;
+}
+/* line 297, css3-gmail-style.scss */
+.bttn.icon.red.add:before, .bttn.icon.blue.add:before {
+  background-position: -12px 0;
+}
+/* line 300, css3-gmail-style.scss */
+.bttn.icon.red.apple:before, .bttn.icon.blue.apple:before {
+  background-position: -12px -12px;
+}
+/* line 303, css3-gmail-style.scss */
+.bttn.icon.red.approve:before, .bttn.icon.blue.approve:before {
+  background-position: -12px -24px;
+}
+/* line 306, css3-gmail-style.scss */
+.bttn.icon.red.attachment-1:before, .bttn.icon.blue.attachment-1:before {
+  background-position: -12px -36px;
+}
+/* line 309, css3-gmail-style.scss */
+.bttn.icon.red.attachment-2:before, .bttn.icon.blue.attachment-2:before {
+  background-position: -12px -48px;
+}
+/* line 312, css3-gmail-style.scss */
+.bttn.icon.red.bookmark:before, .bttn.icon.blue.bookmark:before {
+  background-position: -12px -60px;
+}
+/* line 315, css3-gmail-style.scss */
+.bttn.icon.red.calendar:before, .bttn.icon.blue.calendar:before {
+  background-position: -12px -72px;
+}
+/* line 318, css3-gmail-style.scss */
+.bttn.icon.red.cart:before, .bttn.icon.blue.cart:before {
+  background-position: -12px -84px;
+}
+/* line 321, css3-gmail-style.scss */
+.bttn.icon.red.clipboard:before, .bttn.icon.blue.clipboard:before {
+  background-position: -12px -96px;
+}
+/* line 324, css3-gmail-style.scss */
+.bttn.icon.red.close:before, .bttn.icon.blue.close:before {
+  background-position: -12px -108px;
+}
+/* line 327, css3-gmail-style.scss */
+.bttn.icon.red.comment:before, .bttn.icon.blue.comment:before {
+  background-position: -12px -120px;
+}
+/* line 330, css3-gmail-style.scss */
+.bttn.icon.red.delete:before, .bttn.icon.blue.delete:before {
+  background-position: -12px -132px;
+}
+/* line 333, css3-gmail-style.scss */
+.bttn.icon.red.download:before, .bttn.icon.blue.download:before {
+  background-position: -12px -144px;
+}
+/* line 336, css3-gmail-style.scss */
+.bttn.icon.red.dropdown:before, .bttn.icon.blue.dropdown:before {
+  background-position: -12px -156px;
+}
+/* line 339, css3-gmail-style.scss */
+.bttn.icon.red.edit:before, .bttn.icon.blue.edit:before {
+  background-position: -12px -168px;
+}
+/* line 342, css3-gmail-style.scss */
+.bttn.icon.red.favourite:before, .bttn.icon.blue.favourite:before {
+  background-position: -12px -180px;
+}
+/* line 345, css3-gmail-style.scss */
+.bttn.icon.red.folder:before, .bttn.icon.blue.folder:before {
+  background-position: -12px -192px;
+}
+/* line 348, css3-gmail-style.scss */
+.bttn.icon.red.folder-plus:before, .bttn.icon.blue.folder-plus:before {
+  background-position: -12px -204px;
+}
+/* line 351, css3-gmail-style.scss */
+.bttn.icon.red.folder-minus:before, .bttn.icon.blue.folder-minus:before {
+  background-position: -12px -216px;
+}
+/* line 354, css3-gmail-style.scss */
+.bttn.icon.red.fork:before, .bttn.icon.blue.fork:before {
+  background-position: -12px -228px;
+}
+/* line 357, css3-gmail-style.scss */
+.bttn.icon.red.home:before, .bttn.icon.blue.home:before {
+  background-position: -12px -240px;
+}
+/* line 360, css3-gmail-style.scss */
+.bttn.icon.red.like:before, .bttn.icon.blue.like:before {
+  background-position: -12px -252px;
+}
+/* line 363, css3-gmail-style.scss */
+.bttn.icon.red.link:before, .bttn.icon.blue.link:before {
+  background-position: -12px -264px;
+}
+/* line 366, css3-gmail-style.scss */
+.bttn.icon.red.list:before, .bttn.icon.blue.list:before {
+  background-position: -12px -276px;
+}
+/* line 369, css3-gmail-style.scss */
+.bttn.icon.red.lock:before, .bttn.icon.blue.lock:before {
+  background-position: -12px -288px;
+}
+/* line 372, css3-gmail-style.scss */
+.bttn.icon.red.mail:before, .bttn.icon.blue.mail:before {
+  background-position: -12px -300px;
+}
+/* line 375, css3-gmail-style.scss */
+.bttn.icon.red.maximise:before, .bttn.icon.blue.maximise:before {
+  background-position: -12px -312px;
+}
+/* line 378, css3-gmail-style.scss */
+.bttn.icon.red.minimise:before, .bttn.icon.blue.minimise:before {
+  background-position: -12px -324px;
+}
+/* line 381, css3-gmail-style.scss */
+.bttn.icon.red.move:before, .bttn.icon.blue.move:before {
+  background-position: -12px -336px;
+}
+/* line 384, css3-gmail-style.scss */
+.bttn.icon.red.new-window:before, .bttn.icon.blue.new-window:before {
+  background-position: -12px -348px;
+}
+/* line 387, css3-gmail-style.scss */
+.bttn.icon.red.pin:before, .bttn.icon.blue.pin:before {
+  background-position: -12px -372px;
+}
+/* line 390, css3-gmail-style.scss */
+.bttn.icon.red.print:before, .bttn.icon.blue.print:before {
+  background-position: -12px -396px;
+}
+/* line 393, css3-gmail-style.scss */
+.bttn.icon.red.profile:before, .bttn.icon.blue.profile:before {
+  background-position: -12px -408px;
+}
+/* line 396, css3-gmail-style.scss */
+.bttn.icon.red.refresh:before, .bttn.icon.blue.refresh:before {
+  background-position: -12px -420px;
+}
+/* line 399, css3-gmail-style.scss */
+.bttn.icon.red.remove:before, .bttn.icon.blue.remove:before {
+  background-position: -12px -432px;
+}
+/* line 402, css3-gmail-style.scss */
+.bttn.icon.red.rss:before, .bttn.icon.blue.rss:before {
+  background-position: -12px -444px;
+}
+/* line 405, css3-gmail-style.scss */
+.bttn.icon.red.save:before, .bttn.icon.blue.save:before {
+  background-position: -12px -456px;
+}
+/* line 408, css3-gmail-style.scss */
+.bttn.icon.red.search:before, .bttn.icon.blue.search:before {
+  background-position: -12px -468px;
+}
+/* line 411, css3-gmail-style.scss */
+.bttn.icon.red.settings:before, .bttn.icon.blue.settings:before {
+  background-position: -12px -480px;
+}
+/* line 414, css3-gmail-style.scss */
+.bttn.icon.red.stats:before, .bttn.icon.blue.stats:before {
+  background-position: -12px -492px;
+}
+/* line 417, css3-gmail-style.scss */
+.bttn.icon.red.sync:before, .bttn.icon.blue.sync:before {
+  background-position: -12px -504px;
+}
+/* line 420, css3-gmail-style.scss */
+.bttn.icon.red.tag:before, .bttn.icon.blue.tag:before {
+  background-position: -12px -516px;
+}
+/* line 423, css3-gmail-style.scss */
+.bttn.icon.red.tools:before, .bttn.icon.blue.tools:before {
+  background-position: -12px -528px;
+}
+/* line 426, css3-gmail-style.scss */
+.bttn.icon.red.unlock:before, .bttn.icon.blue.unlock:before {
+  background-position: -12px -540px;
+}
+/* line 429, css3-gmail-style.scss */
+.bttn.icon.red.upload:before, .bttn.icon.blue.upload:before {
+  background-position: -12px -552px;
+}
+/* line 432, css3-gmail-style.scss */
+.bttn.icon.red.view:before, .bttn.icon.blue.view:before {
+  background-position: -12px -564px;
+}
+/* line 435, css3-gmail-style.scss */
+.bttn.icon.red.vol-mute:before, .bttn.icon.blue.vol-mute:before {
+  background-position: -12px -576px;
+}
+/* line 438, css3-gmail-style.scss */
+.bttn.icon.red.vol-low:before, .bttn.icon.blue.vol-low:before {
+  background-position: -12px -588px;
+}
+/* line 441, css3-gmail-style.scss */
+.bttn.icon.red.vol-mid:before, .bttn.icon.blue.vol-mid:before {
+  background-position: -12px -600px;
+}
+/* line 444, css3-gmail-style.scss */
+.bttn.icon.red.vol-high:before, .bttn.icon.blue.vol-high:before {
+  background-position: -12px -612px;
+}
+/* line 450, css3-gmail-style.scss */
+.bttn .prev:before {
+  background-position: 0 -384px;
+}
+/* line 453, css3-gmail-style.scss */
+.bttn .next:after {
+  background-position: 0 -360px;
 }
 
-/*==================================================*/
-/*  $Colored-icons                                  */
-/*==================================================*/
-
-.red.icon.add:before, .blue.icon.add:before {
-	background-position:-12px 0;
-}
-.red.icon.apple:before, .blue.icon.apple:before {
-	background-position:-12px -12px;
-}
-.red.icon.approve:before, .blue.icon.approve:before {
-	background-position:-12px -24px;
-}
-.red.icon.attachment-1:before, .blue.icon.attachment-1:before {
-	background-position:-12px -36px;
-}
-.red.icon.attachment-2:before, .blue.icon.attachment-2:before {
-	background-position:-12px -48px;
-}
-.red.icon.bookmark:before, .blue.icon.bookmark:before {
-	background-position:-12px -60px;
-}
-.red.icon.calendar:before, .blue.icon.calendar:before {
-	background-position:-12px -72px;
-}
-.red.icon.cart:before, .blue.icon.cart:before {
-	background-position:-12px -84px;
-}
-.red.icon.clipboard:before, .blue.icon.clipboard:before{
-	background-position:-12px -96px;
-}
-.red.icon.close:before, .blue.icon.close:before {
-	background-position:-12px -108px;
-}
-.red.icon.comment:before, .blue.icon.comment:before {
-	background-position:-12px -120px;
-}
-.red.icon.delete:before, .blue.icon.delete:before {
-	background-position:-12px -132px;
-}
-.red.icon.download:before, .blue.icon.download:before {
-	background-position:-12px -144px;
-}
-.red.icon.dropdown:before, .blue.icon.dropdown:before {
-	background-position:-12px -156px;
-}
-.red.icon.edit:before, .blue.icon.edit:before {
-	background-position:-12px -168px;
-}
-.red.icon.favourite:before, .blue.icon.favourite:before {
-	background-position:-12px -180px;
-}
-.red.icon.folder:before, .blue.icon.folder:before {
-	background-position:-12px -192px;
-}
-.red.icon.folder-plus:before, .blue.icon.folder-plus:before {
-	background-position:-12px -204px;
-}
-.red.icon.folder-minus:before, .blue.icon.folder-minus:before {
-	background-position:-12px -216px;
-}
-.red.icon.fork:before, .blue.icon.fork:before {
-	background-position:-12px -228px;
-}
-.red.icon.home:before, .blue.icon.home:before {
-	background-position:-12px -240px;
-}
-.red.icon.like:before, .blue.icon.like:before {
-	background-position:-12px -252px;
-}
-.red.icon.link:before, .blue.icon.link:before {
-	background-position:-12px -264px;
-}
-.red.icon.list:before, .blue.icon.list:before {
-	background-position:-12px -276px;
-}
-.red.icon.lock:before, .blue.icon.lock:before {
-	background-position:-12px -288px;
-}
-.red.icon.mail:before, .blue.icon.mail:before {
-	background-position:-12px -300px;
-}
-.red.icon.maximise:before, .blue.icon.maximise:before {
-	background-position:-12px -312px;
-}
-.red.icon.minimise:before, .blue.icon.minimise:before {
-	background-position:-12px -324px;
-}
-.red.icon.move:before, .blue.icon.move:before {
-	background-position:-12px -336px;
-}
-.red.icon.new-window:before, .blue.icon.new-window:before {
-	background-position:-12px -348px;
-}
-.red.next:after, .blue.next:after {
-	background-position:-12px -360px;
-}
-.red.icon.pin:before, .blue.icon.pin:before {
-	background-position:-12px -372px;
-}
-.red.prev:before, .blue.prev:before {
-	background-position:-12px -384px;
-}
-.red.icon.print:before, .blue.icon.print:before {
-	background-position:-12px -396px;
-}
-.red.icon.profile:before, .blue.icon.profile:before {
-	background-position:-12px -408px;
-}
-.red.icon.refresh:before, .blue.icon.refresh:before {
-	background-position:-12px -420px;
-}
-.red.icon.remove:before, .blue.icon.remove:before {
-	background-position:-12px -432px;
-}
-.red.icon.rss:before, .blue.icon.rss:before {
-	background-position:-12px -444px;
-}
-.red.icon.save:before, .blue.icon.save:before {
-	background-position:-12px -456px;
-}
-.red.icon.search:before, .blue.icon.search:before {
-	background-position:-12px -468px;
-}
-.red.icon.settings:before, .blue.icon.settings:before {
-	background-position:-12px -480px;
-}
-.red.icon.stats:before, .blue.icon.stats:before {
-	background-position:-12px -492px;
-}
-.red.icon.sync:before, .blue.icon.sync:before {
-	background-position:-12px -504px;
-}
-.red.icon.tag:before, .blue.icon.tag:before {
-	background-position:-12px -516px;
-}
-.red.icon.tools:before, .blue.icon.tools:before {
-	background-position:-12px -528px;
-}
-.red.icon.unlock:before, .blue.icon.unlock:before {
-	background-position:-12px -540px;
-}
-.red.icon.upload:before, .blue.icon.upload:before {
-	background-position:-12px -552px;
-}
-.red.icon.view:before, .blue.icon.view:before {
-	background-position:-12px -564px;
-}
-.red.icon.vol-mute:before, .blue.icon.vol-mute:before {
-	background-position:-12px -576px;
-}
-.red.icon.vol-low:before, .blue.icon.vol-low:before {
-	background-position:-12px -588px;
-}
-.red.icon.vol-mid:before, .blue.icon.vol-mid:before {
-	background-position:-12px -600px;
-}
-.red.icon.vol-high:before, .blue.icon.vol-high:before {
-	background-position:-12px -612px;
-}
-
-/*==================================================*/
-/*  $Colored-icons                                  */
-/*==================================================*/
-.red.icon:before,
-.blue.icon:before {
-	background-position:-12px 0;
-}
-.red.icon.add:before, 
-.blue.icon.add:before {
-	background-position:-12px 0;
-}
-.red.icon.apple:before, 
-.blue.icon.apple:before {
-	background-position:-12px -12px;
-}
-.red.icon.approve:before, 
-.blue.icon.approve:before {
-	background-position:-12px -24px;
-}
-.red.icon.attachment-1:before, 
-.blue.icon.attachment-1:before {
-	background-position:-12px -36px;
-}
-.red.icon.attachment-2:before, 
-.blue.icon.attachment-2:before {
-	background-position:-12px -48px;
-}
-.red.icon.bookmark:before, 
-.blue.icon.bookmark:before {
-	background-position:-12px -60px;
-}
-.red.icon.calendar:before, 
-.blue.icon.calendar:before {
-	background-position:-12px -72px;
-}
-.red.icon.cart:before, 
-.blue.icon.cart:before {
-	background-position:-12px -84px;
-}
-.red.icon.clipboard:before, 
-.blue.icon.clipboard:before{
-	background-position:-12px -96px;
-}
-.red.icon.close:before, 
-.blue.icon.close:before {
-	background-position:-12px -108px;
-}
-.red.icon.comment:before, .
-blue.icon.comment:before {
-	background-position:-12px -120px;
-}
-.red.icon.delete:before, 
-.blue.icon.delete:before {
-	background-position:-12px -132px;
-}
-.red.icon.download:before, 
-.blue.icon.download:before {
-	background-position:-12px -144px;
-}
-.red.icon.dropdown:before, 
-.blue.icon.dropdown:before {
-	background-position:-12px -156px;
-}
-.red.icon.edit:before, 
-.blue.icon.edit:before {
-	background-position:-12px -168px;
-}
-.red.icon.favourite:before, 
-.blue.icon.favourite:before {
-	background-position:-12px -180px;
-}
-.red.icon.folder:before, 
-.blue.icon.folder:before {
-	background-position:-12px -192px;
-}
-.red.icon.folder-plus:before, 
-.blue.icon.folder-plus:before {
-	background-position:-12px -204px;
-}
-.red.icon.folder-minus:before, 
-.blue.icon.folder-minus:before {
-	background-position:-12px -216px;
-}
-.red.icon.fork:before, 
-.blue.icon.fork:before {
-	background-position:-12px -228px;
-}
-.red.icon.home:before, 
-.blue.icon.home:before {
-	background-position:-12px -240px;
-}
-.red.icon.like:before, 
-.blue.icon.like:before {
-	background-position:-12px -252px;
-}
-.red.icon.link:before, 
-.blue.icon.link:before {
-	background-position:-12px -264px;
-}
-.red.icon.list:before, 
-.blue.icon.list:before {
-	background-position:-12px -276px;
-}
-.red.icon.lock:before, 
-.blue.icon.lock:before {
-	background-position:-12px -288px;
-}
-.red.icon.mail:before, 
-.blue.icon.mail:before {
-	background-position:-12px -300px;
-}
-.red.icon.maximise:before, 
-.blue.icon.maximise:before {
-	background-position:-12px -312px;
-}
-.red.icon.minimise:before, 
-.blue.icon.minimise:before {
-	background-position:-12px -324px;
-}
-.red.icon.move:before, 
-.blue.icon.move:before {
-	background-position:-12px -336px;
-}
-.red.icon.new-window:before, 
-.blue.icon.new-window:before {
-	background-position:-12px -348px;
-}
-.red.next:after, 
-.blue.next:after {
-	background-position:-12px -360px;
-}
-.red.icon.pin:before, 
-.blue.icon.pin:before {
-	background-position:-12px -372px;
-}
-.red.prev:before, 
-.blue.prev:before {
-	background-position:-12px -384px;
-}
-.red.icon.print:before, 
-.blue.icon.print:before {
-	background-position:-12px -396px;
-}
-.red.icon.profile:before, 
-.blue.icon.profile:before {
-	background-position:-12px -408px;
-}
-.red.icon.refresh:before, 
-.blue.icon.refresh:before {
-	background-position:-12px -420px;
-}
-.red.icon.remove:before, 
-.blue.icon.remove:before {
-	background-position:-12px -432px;
-}
-.red.icon.rss:before, 
-.blue.icon.rss:before {
-	background-position:-12px -444px;
-}
-.red.icon.save:before, 
-.blue.icon.save:before {
-	background-position:-12px -456px;
-}
-.red.icon.search:before, 
-.blue.icon.search:before {
-	background-position:-12px -468px;
-}
-.red.icon.settings:before, 
-.blue.icon.settings:before {
-	background-position:-12px -480px;
-}
-.red.icon.stats:before, 
-.blue.icon.stats:before {
-	background-position:-12px -492px;
-}
-.red.icon.sync:before, 
-.blue.icon.sync:before {
-	background-position:-12px -504px;
-}
-.red.icon.tag:before, 
-.blue.icon.tag:before {
-	background-position:-12px -516px;
-}
-.red.icon.tools:before, 
-.blue.icon.tools:before {
-	background-position:-12px -528px;
-}
-.red.icon.unlock:before, 
-.blue.icon.unlock:before {
-	background-position:-12px -540px;
-}
-.red.icon.upload:before, 
-.blue.icon.upload:before {
-	background-position:-12px -552px;
-}
-.red.icon.view:before, 
-.blue.icon.view:before {
-	background-position:-12px -564px;
-}
-.red.icon.vol-mute:before, 
-.blue.icon.vol-mute:before {
-	background-position:-12px -576px;
-}
-.red.icon.vol-low:before, 
-.blue.icon.vol-low:before {
-	background-position:-12px -588px;
-}
-.red.icon.vol-mid:before, 
-.blue.icon.vol-mid:before {
-	background-position:-12px -600px;
-}
-.red.icon.vol-high:before, 
-.blue.icon.vol-high:before {
-	background-position:-12px -612px;
-}
 /*==================================================*/
 /*  $Grouped                                        */
 /*==================================================*/
+/* line 461, css3-gmail-style.scss */
 .grouped {
-	display:inline-block;
-	list-style:none;
-	padding:0;
-	margin:0;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+/* line 467, css3-gmail-style.scss */
 .grouped li {
-	float:left;
-	margin:0;
-	padding:0;
+  float: left;
+  margin: 0;
+  padding: 0;
 }
+/* line 472, css3-gmail-style.scss */
 .grouped .bttn {
-	float:left;
-	margin-left:-1px;
+  float: left;
+  margin-left: -1px;
 }
+/* line 477, css3-gmail-style.scss */
 .grouped li:not(:first-child):not(:last-child) .bttn,
 .grouped > .bttn:not(:first-child):not(:last-child) {
-	-webkit-border-radius:0;
-	-moz-border-radius:0;
-	-ms-border-radius:0;
-	-o-border-radius:0;
-	border-radius:0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
 }
+/* line 481, css3-gmail-style.scss */
 .grouped li:first-child .bttn,
 .grouped > .bttn:first-child {
-	margin-left:0;
-	-webkit-border-top-right-radius:0;
-	-webkit-border-bottom-right-radius:0;
-	-moz-border-radius-topright:0;
-	-moz-border-radius-bottomright:0;	
-	border-top-right-radius:0;
-	border-bottom-right-radius:0;			
+  margin-left: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  -o-border-top-right-radius: 0;
+  -ms-border-top-right-radius: 0;
+  -khtml-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -o-border-bottom-right-radius: 0;
+  -ms-border-bottom-right-radius: 0;
+  -khtml-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
+/* line 486, css3-gmail-style.scss */
 .grouped li:last-child .bttn,
 .grouped > .bttn:last-child {
-	-webkit-border-top-left-radius:0;
-	-webkit-border-bottom-left-radius:0;
-	-moz-border-radius-topleft:0;
-	-moz-border-radius-bottomleft:0;	
-	border-top-left-radius:0;
-	border-bottom-left-radius:0;
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  -o-border-top-left-radius: 0;
+  -ms-border-top-left-radius: 0;
+  -khtml-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -o-border-bottom-left-radius: 0;
+  -ms-border-bottom-left-radius: 0;
+  -khtml-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
