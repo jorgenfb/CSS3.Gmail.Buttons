@@ -174,7 +174,7 @@ https://github.com/AdamWhitcroft/CSS3.Gmail.Buttons
   float: left;
   width: 12px;
   height: 12px;
-  background: url(icons.png) no-repeat 0 0;
+  background: url('icons.png') no-repeat 0 0;
 }
 /* line 114, css3-gmail-style.scss */
 .bttn.next:after {
@@ -186,7 +186,7 @@ https://github.com/AdamWhitcroft/CSS3.Gmail.Buttons
   float: right;
   width: 12px;
   height: 12px;
-  background: url(icons.png) no-repeat 0 0;
+  background: url('icons.png') no-repeat 0 0;
 }
 /* line 127, css3-gmail-style.scss */
 .bttn.icon:before, .bttn.prev:before, .bttn.next:after {
